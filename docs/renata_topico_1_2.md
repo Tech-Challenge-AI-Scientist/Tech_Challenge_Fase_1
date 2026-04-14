@@ -24,10 +24,11 @@
 Avaliação do entendimento conceitual sobre a variável alvo do problema.
 
 - **Qual variável representa a satisfação do cliente?**
-> R: A variável alvo é o `nps_score`, que utiliza uma escala de 0 a 10.
+> R: Para medir a satifação do cliente nessa análise, podemos olhar duas variaveis principais presentes nos dados: o `nps_score` e o `cast_internal_score`, ambos em uma escala de 0 a 10.
 - **Por que ela foi escolhida?**
-> R: Ela permite quantificar a percepção do cliente de forma padronizada, facilitando a categorização entre **Detratores**, **Neutros** e **Promotores**, transformando um sentimento em um dado métrico para análise.
+> R: O `nps_score` é a variável alvo principal, pois quantifica a lealdade do cliente e a sua disposição em recomendar a marca após toda a jornada. O `csat_internal_score` funciona como um indicador complementar de satisfação pontual. Ele nos permite analisar se o atendimento recebido foi bem avaliado pelo cliente, independentemente de problemas que possam ter ocorrido em outras etapas.
 - **Em que momento da jornada essa informação é coletada?**
-> R: A coleta ocorre apenas ao final da jornada de venda, após o cliente ter percorrido todo o processo (compra, pagamento e entrega).
+> R: A coleta ocorre apenas ao final da jornada de venda, após o cliente ter percorrido todo o processo (compra, pagamento e entrega), capturando a percepção total.
 - **Existe algum risco de usar essa variável de forma inadequada?**
 > R: O principal risco é o **viés de resposta**, visto que muitos clientes não respondem à pesquisa. Isso pode gerar uma métrica baseada apenas nos "extremos" (clientes muito satisfeitos ou muito insatisfeitos), ignorando a opinião da maioria e mascarando a realidade da operação.
+> R: Vazamento de dados: É um risco técnico alto, pois ocorre quando utilizamos informações que só estariam disponíveis depois ou junto com a nota do NPS para tentar prevê-la. Se utilizarmos apenas dados gerados após a insatisfação estar consolidada, o modelo perderá seu poder de antecipação e torna-se apenas um espelho do que já aconteceu.
