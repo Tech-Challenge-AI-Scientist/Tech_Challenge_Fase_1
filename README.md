@@ -1,5 +1,8 @@
 ## Como Começar
 
+### Pitch:
+https://youtu.be/_JQkkD8b5fo
+
 ### Pré-requisitos
 - Python 3.12+
 - Git
