@@ -1,4 +1,10 @@
 # Tech Challenge Fase 1 - Case NPS Preditivo
+
+## Kick Off Tech Challenge:
+
+[![Ver PDF](https://img.shields.io/badge/📄%20Ver%20Documento-blue)](./docs/1IAST - Fase 1 - Tech Challenge.pdf)
+
+
 ## Apresentação e Pitch do Projeto:
 
 ### Apresentação:
