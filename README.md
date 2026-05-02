@@ -13,6 +13,13 @@ https://youtu.be/_JQkkD8b5fo
 ## Metodologia Utilizada
 
 ## Como reproduzir os resultados:
+### Estrutura de diretórios:
+
+- **data:** dados em formato .csv
+- **docs:** arquivos de texto, documentação e apresentação
+- **eda:** análise exploratória dos dados
+- **prediction:** algoritmos de machine learning para predição
+
 ### Pré-requisitos
 - Python 3.12+
 - Git
@@ -46,10 +53,3 @@ No seu terminal (Powershell ou Bash):
 ```bash
    pip install -r requirements.txt
 ```
-
-## Estrutura de diretórios:
-
-- **data:** dados em formato .csv
-- **docs:** arquivos de texto e documentação
-- **eda:** análise exploratória dos dados
-- **prediction:** algoritmos de machine learning para predição
