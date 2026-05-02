@@ -2,8 +2,7 @@
 
 ## Kick Off Tech Challenge:
 
-📄 [Visualizar kick off](https://github.com/Tech-Challenge-AI-Scientist/Tech_Challenge_Fase_1/blob/main/docs/1IAST%20-%20Fase%201%20-%20Tech%20Challenge.pdf?raw=true)
-
+📄 [Visualizar kick off](https://github.com/Tech-Challenge-AI-Scientist/Tech_Challenge_Fase_1/blob/main/docs/1IAST_Fase%201_Tech_Challenge.pdf?raw=true)
 
 ## Apresentação e Pitch do Projeto:
 
