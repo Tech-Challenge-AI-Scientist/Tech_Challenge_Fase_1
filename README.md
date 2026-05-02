@@ -8,6 +8,8 @@
 
 ### Apresentação:
 
+📊 [Visualizar apresentação](./docs/Tech_Challenge.pptx)
+
 ### Pitch
 https://youtu.be/_JQkkD8b5fo
 
