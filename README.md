@@ -1,4 +1,9 @@
+# Tech Challenge Fase 1 - Case NPS Preditivo
 ## Apresentação e Pitch do Projeto:
+
+### Apresentação:
+
+### Pitch
 https://youtu.be/_JQkkD8b5fo
 
 ## Objetivo do Projeto:
