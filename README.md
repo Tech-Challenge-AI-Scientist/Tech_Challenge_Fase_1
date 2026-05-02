@@ -23,9 +23,12 @@ Atualmente, a empresa atua de forma reativa, pois só toma conhecimento da insat
 ## Descrição da Base de Dados:
 
 ### Dicionário de Dados
-● customer_id: Identificador único do cliente.
-● order_id: Identificador único do pedido.
-● customer_age: Idade do cliente.
+● customer_id: Identificador único do cliente;
+
+● order_id: Identificador único do pedido;
+
+● customer_age: Idade do cliente;
+
 ● customer_region: Região geográfica do cliente.
 ● customer_tenure_months: Tempo de relacionamento do cliente com a
 empresa (em meses).
