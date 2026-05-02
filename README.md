@@ -1,8 +1,13 @@
-## Como Começar
-
-### Pitch:
+## Apresentação e Pitch do Projeto:
 https://youtu.be/_JQkkD8b5fo
 
+## Objetivo do Projeto:
+
+## Descrição da Base de Dados:
+
+## Metodologia Utilizada
+
+## Como reproduzir os resultados:
 ### Pré-requisitos
 - Python 3.12+
 - Git
