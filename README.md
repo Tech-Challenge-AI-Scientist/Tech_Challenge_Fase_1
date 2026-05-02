@@ -2,7 +2,7 @@
 
 ## Kick Off Tech Challenge:
 
-[![Ver PDF](https://img.shields.io/badge/📄%20Ver%20Documento-blue)](./docs/1IAST - Fase 1 - Tech Challenge.pdf)
+📄 [Visualizar kick off](https://github.com/Tech-Challenge-AI-Scientist/Tech_Challenge_Fase_1/blob/main/docs/1IAST%20-%20Fase%201%20-%20Tech%20Challenge.pdf?raw=true)
 
 
 ## Apresentação e Pitch do Projeto:
