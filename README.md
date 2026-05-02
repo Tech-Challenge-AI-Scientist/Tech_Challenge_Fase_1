@@ -19,10 +19,28 @@ O NPS é uma métrica fundamental para mensurar a percepção do cliente sobre o
 Atualmente, a empresa atua de forma reativa, pois só toma conhecimento da insatisfação do cliente após a finalização da jornada de compra, por meio da pesquisa. O desafio é transformar essa postura. Ou seja, identificar sinais de insatisfação antes para que a empresa possa agir de forma proativa antes mesmo de receber o feedback negativo no NPS.
 
 📄 [Entendimento do Negócio](./docs/entendimento_negocio_target.md)
+📊 [Análise Exploratória dos dados](./EDA/tech_challenge_eda.ipynb)
+🎯 [Modelo Preditivo](./prediction/predicao_nps_1.ipynb)
+
 
 ## Descrição da Base de Dados:
+Neste trabalho, analisamos uma base de dados sobre a experiência do cliente em compras, com foco no Net Promoter Score (NPS). O objetivo é avaliar como fatores operacionais — como atrasos na entrega, contatos com o suporte e volume de reclamações — influenciam a satisfação dos clientes, gerando insights para apoiar a tomada de decisão.
 
-### Dicionário de Dados
+Sobre a base de dados disponibilizada, foi analisada antes de iniciar o EDA a qualidade da base disponibilizada no qual podemos destacar alguns pontos analisados:
+
+* Sem dados nulos
+* Sem dados duplicados
+* Dados de 2500 clientes e 19 colunas
+Em resumo a base tem uma qualidade relativamente boa das informações, visto que não foi necessário um tratamento prévio dos dados nulos ou duplicados ou limpezar do mesmo. Porém em carater do nosso modelo preditivo, podemos destacar alguns pontos de melhoria:
+
+Uma oportunidade de melhoria para as predições é expandir a base de dados, incluindo variáveis como:
+
+* se o problema foi resolvido
+* se foi necessário o uso de um canal externo, e qual foi este canal
+* Se houve devolução ou troca no pedido
+* Se houve alguma avaria na entrega, e se o cliente recebeu alguma compensação por ela
+
+### Dicionário de Dados da base disponibilizada
 ● customer_id: Identificador único do cliente;
 
 ● order_id: Identificador único do pedido;
