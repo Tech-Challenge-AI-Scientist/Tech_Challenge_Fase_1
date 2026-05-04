@@ -84,6 +84,30 @@ pedido (0 = não, 1 = sim);
 após a experiência de compra.
 
 ## Metodologia Utilizada
+Como metologia, utilizamos para o desenvolvimento do projeto o método CRISP-DM, adaptando os ciclos conforme a necessidade e demanda do projeto, que por se tratar de um projeto mais compacto e voltado para uma única entrega com deadline previsto para o dia 05/04.
+
+#### * Entendimento do Negócio:
+Definição de metas, métricas de sucesso e tradução do problema de negócio em perguntas analíticas.
+📄 [Entendimento do Negócio](./docs/entendimento_negocio_target.md)
+
+#### * Entendimento dos Dados:
+Estatística descritiva e visualização para identificar padrões e outliers. 
+[Entendimento dos dados](./EDA/tech_challenge_eda.ipynb)
+
+#### * Preparação dos dados:
+Limpeza, tratamento de valores ausentes, normalização, integração de fontes e engenharia de features. Realizado em conjunto com notebook de EDA
+[Preparação dos dados](./EDA/tech_challenge_eda.ipynb)
+
+#### * Modelagem:
+Seleção de algoritmos (regressão, classificação, etc.), experimentação controlada e ajuste de hiperparâmetros.
+[Modelagem](./prediction/predicao_nps_1.ipynb)
+
+#### * Avaliação:
+Verificação de métricas (Precision, Recall, AUC-ROC) e validação se o modelo resolve o problema original do negócio. Realizado em conjunto com notebook do Modelo
+[Avaliação](./prediction/predicao_nps_1.ipynb)
+
+#### * Implantação:
+PR no repositório do projeto com a versão final e avaliada e validada
 
 ## Como reproduzir os resultados:
 ### Estrutura de diretórios:
