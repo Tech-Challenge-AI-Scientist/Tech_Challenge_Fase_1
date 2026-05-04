@@ -89,32 +89,32 @@ Como metologia, utilizamos para o desenvolvimento do projeto o método CRISP-DM,
 <img width="677" height="625" alt="image" src="https://github.com/user-attachments/assets/51086aea-18f2-45ff-b5ca-f339366f3c3e" />
 
 
-#### * Entendimento do Negócio:
+#### ● Entendimento do Negócio:
 Definição de metas, métricas de sucesso e tradução do problema de negócio em perguntas analíticas.
 
 [Entendimento do Negócio](./docs/entendimento_negocio_target.md)
 
-#### * Entendimento dos Dados:
+#### ● Entendimento dos Dados:
 Estatística descritiva e visualização para identificar padrões e outliers. 
 
 [Entendimento dos dados](./EDA/tech_challenge_eda.ipynb)
 
-#### * Preparação dos dados:
+#### ● Preparação dos dados:
 Limpeza, tratamento de valores ausentes, normalização, integração de fontes e engenharia de features. Realizado em conjunto com notebook de EDA
 
 [Preparação dos dados](./EDA/tech_challenge_eda.ipynb)
 
-#### * Modelagem:
+#### ● Modelagem:
 Seleção de algoritmos (regressão, classificação, etc.), experimentação controlada e ajuste de hiperparâmetros.
 
 [Modelagem](./prediction/predicao_nps_1.ipynb)
 
-#### * Avaliação:
+#### ● Avaliação:
 Verificação de métricas (Precision, Recall, AUC-ROC) e validação se o modelo resolve o problema original do negócio. Realizado em conjunto com notebook do Modelo
 
 [Avaliação](./prediction/predicao_nps_1.ipynb)
 
-#### * Implantação:
+#### ● Implantação:
 Deploy no repositório do projeto no Github com a versão final avaliada e validada pelos membros da equipe
 
 ## Como reproduzir os resultados:
